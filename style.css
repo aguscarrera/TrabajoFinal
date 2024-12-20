@@ -107,7 +107,23 @@ input{
 margin-top:10px;
 
 }
-#menuContenedor,
+.mainContenedor{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+width: 100%;
+gap:20px;
+padding:0px;
+margin: 0px;
+
+}
+.galeriaContenedor{
+width: 75%;
+display: flex;
+flex-direction: row;
+gap:20px;
+
+}#menuContenedor,
 #gal2,
 #gal3 {
 margin: 0px;
